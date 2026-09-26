@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef4f8;
+    color: #222;
+}
+
+header {
+    background-color: #1d5d7a;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.search,
+#current-weather,
+.forecast-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d99000;
+}
+
+#message {
+    color: #b00020;
+}
+
+.current-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.current-info .temperature {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.weather-icon {
+    font-size: 60px;
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.detail {
+    background-color: #f2f6f8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#forecast {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.forecast-card {
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.forecast-icon {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.forecast-temperature {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+@media (max-width: 800px) {
+    #forecast {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .weather-details {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        flex-direction: column;
+    }
+}

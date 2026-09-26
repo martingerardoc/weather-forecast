@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+        <p>CSE 341 JavaScript Project</p>
+    </header>
+
+    <main>
+        <section class="search">
+            <h2>Search for a City</h2>
+
+            <form id="weather-form">
+                <input
+                    type="text"
+                    id="city"
+                    placeholder="Enter a city"
+                    required
+                >
+                <button type="submit">Search</button>
+            </form>
+
+            <p id="message"></p>
+        </section>
+
+        <section id="current-weather"></section>
+
+        <section>
+            <h2>7-Day Forecast</h2>
+            <div id="forecast"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Weather data from Open-Meteo</p>
+    </footer>
+</body>
+</html>
