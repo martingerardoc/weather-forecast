@@ -1,33 +1,27 @@
-# CSE 341 Weather Forecast
+# Overview
+This site lets users search the weather from any city and view his current weather.
+This project was selected because I wnated to retrieved information from an API and display his information dynamically.
+I learned concepts like DOM manipulation, objects, arrays, functions.
 
-A simple weather application built with:
+This is a YouTube video demonstration.
 
-- HTML
-- CSS
-- Vanilla JavaScript
-- Open-Meteo API
+[Software Demo Video](https://youtu.be/pOYCv6dyOpM)
 
-## Features
+# Development Environment
 
-- Search for a city.
-- Display current temperature.
-- Display feels-like temperature.
-- Display humidity.
-- Display wind speed.
-- Display weather conditions.
-- Display a 7-day forecast.
-- Display precipitation probability.
+THe tools that I used was Visual Studio Code, and the Open-Meteo Geocoding API and Wheather API for retrieving weather information
 
-## How to run
+# Useful Websites
 
-Open `index.html` with VS Code Live Server.
+List of websites
 
-No framework or JavaScript library is required.
+- [Web Site Name](https://open-meteo.com/en/docs)
+- [Web Site Name](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
-## How the application works
+# Future Work
 
-1. The user enters a city.
-2. JavaScript sends the city to the Open-Meteo Geocoding API.
-3. The API returns latitude and longitude.
-4. JavaScript uses those coordinates with the Open-Meteo Weather API.
-5. The application displays the weather by changing the HTML with JavaScript.
+Thinks to improve and add in the future.
+
+- Add a loading indicator while weather data is retrieved.
+- Improve the presentacion of the site.
+- Improve the site for mobile use.
