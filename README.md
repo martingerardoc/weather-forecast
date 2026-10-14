@@ -5,7 +5,7 @@ I learned concepts like DOM manipulation, objects, arrays, functions.
 
 This is a YouTube video demonstration.
 
-[Software Demo Video](https://youtu.be/pOYCv6dyOpM)
+[Software YouTube Video demostration](https://youtu.be/pOYCv6dyOpM)
 
 # Development Environment
 
@@ -15,8 +15,8 @@ THe tools that I used was Visual Studio Code, and the Open-Meteo Geocoding API a
 
 List of websites
 
-- [Web Site Name](https://open-meteo.com/en/docs)
-- [Web Site Name](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [Open-Meteo Site](https://open-meteo.com/en/docs)
+- [Developer mozilla site](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 # Future Work
 
